@@ -2,9 +2,9 @@
 const Telegraf = require('telegraf');
 const { memorySession } = require('telegraf');
 const TelegrafFlow = require('telegraf-flow');
-const { WizardScene } = TelegrafFlow ;
+const { WizardScene } = TelegrafFlow;
 
-const bot = new Telegraf("342044341:AAGP75aL8K3VW5YqkObmA6rXNoGSxSESkj0"); //BE5LeadersBot
+const bot = new Telegraf("342044341:AAGP75aL8K3VW5YqkObmA6rXNoGSxSESkj0");
 
 //---------BEGIN POLLING--------
 bot.use(memorySession());
@@ -16,4 +16,4 @@ module.exports = {
 }
 
 //------RUN YOUR FEATURES BELOW---
-const {home} = require('./features/home.js');
+const { home } = require('./features/home.js');

@@ -6,7 +6,8 @@ const Attendance = mongoose.model('Attendance', new mongoose.Schema({
     status: String,
     updatedby: String,
     tbc: Boolean,
-    week: Number
+    week: Number,
+    adjusted: Boolean
 }));
 
 module.exports = Attendance;

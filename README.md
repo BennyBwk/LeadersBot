@@ -1,121 +1,23 @@
-# SevenThreeBot
+# Leaders Bot
 
-🦁 SevenThree Bot is based off the verse in Proverbs 7:3
+This bot is designed with every CG in Heart Of God Church in mind. This bot will help keep track of the attendance and also birthdays in the CG.
 
 ## Getting Started
 
-First, download and unzip the project into any directory. You can even host the bot from your own laptop or home computer. However, for the bot to be running, your own computer(server) will need to be running 24/7.
+/bot/bot.js - change bot token
+/database/db.js - change db path
+/bot/features/home.js - change cg
+/bot/features/helpers/homeHelper.js - change cg
 
 ### Prerequisites
 
-To use t(ACTS)bot, you will need to install, NodeJS(server), MongoDB(database) and also Yarn(package manager).
+To use this bot, you will need to install
+1. NodeJS (server)
+2. MongoDB (database)
+3. Yarn (package manager)
 
-Install NodeJS on OSX (Terminal):
-
-```
-brew install node
-```
-
-Install MongoDB on OSX (Terminal):
-
-```
-brew install mongodb
-```
-
-Install Yarn on OSX (Terminal):
-
-```
-brew install yarn
-```
-
-### Initial Setup
+#### Initial Setup
 
 Running the bot:
-
-First start MongoDB (Terminal):
-
-```
-mongod
-```
-
-Next, navigate into the bot's project directory before starting the bot app (Terminal):
-
-```
-cd SevenThreeBot
-yarn start
-```
-
-
-<!--
-
-### Initial Setup
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc -->
+1. Start MongoDB (Terminal)
+2. Navigate into the bot's project directory before starting the bot app (Terminal):
