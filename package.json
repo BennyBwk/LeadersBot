@@ -19,7 +19,7 @@
     "bluebird": "^3.5.0",
     "body-parser": "^1.16.0",
     "crypto": "^0.0.3",
-    "express": "^4.15.3",
+    "express": "^4.17.3",
     "mongodb": "^2.2.21",
     "mongoose": "^4.7.8",
     "node-cron": "^1.1.3",
